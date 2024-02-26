@@ -1,5 +1,6 @@
 .newUser {
-  flex: 4;
+  width: 100%;
+  padding: 10px;
 }
 
 .newUserForm {
@@ -23,7 +24,8 @@
 }
 
 .newUserItem > input {
-  padding: 8px;
+  height: 20px;
+  padding: 10px;
   border: 1px solid gray;
   border-radius: 5px;
 }

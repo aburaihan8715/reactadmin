@@ -1,6 +1,14 @@
-import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from "@mui/icons-material";
-import { Link } from "react-router-dom";
-import "./user.css";
+import './user.css';
+
+import {
+  CalendarToday,
+  LocationSearching,
+  MailOutline,
+  PermIdentity,
+  PhoneAndroid,
+  Publish,
+} from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 export default function User() {
   return (
@@ -55,23 +63,43 @@ export default function User() {
             <div className="userUpdateLeft">
               <div className="userUpdateItem">
                 <label>Username</label>
-                <input type="text" placeholder="annabeck99" className="userUpdateInput" />
+                <input
+                  type="text"
+                  placeholder="annabeck99"
+                  className="userUpdateInput"
+                />
               </div>
               <div className="userUpdateItem">
                 <label>Full Name</label>
-                <input type="text" placeholder="Anna Becker" className="userUpdateInput" />
+                <input
+                  type="text"
+                  placeholder="Anna Becker"
+                  className="userUpdateInput"
+                />
               </div>
               <div className="userUpdateItem">
                 <label>Email</label>
-                <input type="text" placeholder="annabeck99@gmail.com" className="userUpdateInput" />
+                <input
+                  type="text"
+                  placeholder="annabeck99@gmail.com"
+                  className="userUpdateInput"
+                />
               </div>
               <div className="userUpdateItem">
                 <label>Phone</label>
-                <input type="text" placeholder="+1 123 456 67" className="userUpdateInput" />
+                <input
+                  type="text"
+                  placeholder="+1 123 456 67"
+                  className="userUpdateInput"
+                />
               </div>
               <div className="userUpdateItem">
                 <label>Address</label>
-                <input type="text" placeholder="New York | USA" className="userUpdateInput" />
+                <input
+                  type="text"
+                  placeholder="New York | USA"
+                  className="userUpdateInput"
+                />
               </div>
             </div>
             <div className="userUpdateRight">
@@ -84,7 +112,7 @@ export default function User() {
                 <label htmlFor="file">
                   <Publish className="userUpdateIcon" />
                 </label>
-                <input type="file" id="file" style={{ display: "none" }} />
+                <input type="file" id="file" style={{ display: 'none' }} />
               </div>
               <button className="userUpdateButton">Update</button>
             </div>

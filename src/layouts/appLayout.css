@@ -2,3 +2,10 @@
   display: flex;
   margin-top: 10px;
 }
+
+.sidebarContainer {
+  flex: 1;
+}
+.outletContainer {
+  flex: 4;
+}

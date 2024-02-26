@@ -1,6 +1,6 @@
-import "./topbar.css";
+import './topbar.css';
 
-import { NotificationsNone, Language, Settings } from "@mui/icons-material";
+import { NotificationsNone, Language, Settings } from '@mui/icons-material';
 
 export default function Topbar() {
   return (

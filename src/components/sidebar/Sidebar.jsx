@@ -1,4 +1,4 @@
-import "./sidebar.css";
+import './sidebar.css';
 import {
   LineStyle,
   Timeline,
@@ -12,8 +12,8 @@ import {
   ChatBubbleOutline,
   WorkOutline,
   Report,
-} from "@mui/icons-material";
-import { Link } from "react-router-dom";
+} from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
   return (
